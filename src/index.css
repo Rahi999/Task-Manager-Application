@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url("https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 600px;
+}
+.spinnerContainer {
+  margin: 20% auto;
+  max-width: 15%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.app-header {
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btn:focus {
+  outline: none;
+  color: white;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.task {
+  background: #f4f4f4;
+  margin: 5px auto;
+  max-width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: scroll;
+  display: flex;
+  justify-content: space-between;
+}
+.task::-webkit-scrollbar {
+  display: none;
+}
+.textBold {
+  font-weight: bold;
+}
+.delIcon {
+  color: red;
+  cursor: pointer;
+}
+.editIcon {
+  color: blue;
+  cursor: pointer;
+}
+.add-form {
+  margin-bottom: 40px;
+}
+.form-control {
+  margin: 20px 0;
+}
+.form-control label {
+  display: block;
+}
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+.form-control input:focus {
+  outline: 0;
+}
+@media (max-width: 768px) {
+  .spinnerContainer {
+    margin: 250px auto 0 auto;
+    max-width: 30%;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    max-width: 90%;
+  }
+  .spinnerContainer {
+    margin: 250px auto 0 auto;
+    max-width: 40%;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    max-width: 95%;
+  }
+  .app-header {
+    font-size: 20px;
+  }
+  .spinnerContainer {
+    margin: 250px auto 0 auto;
+    max-width: 45%;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 95%;
+  }
+  .app-header {
+    font-size: 18px;
+  }
+  .spinnerContainer {
+    margin: 250px auto 0 auto;
+    max-width: 50%;
+  }
+}
+.add-form {
+  margin-bottom: 40px;
+}
+.form-control {
+  margin: 20px 0;
+}
+.form-control label {
+  display: block;
+}
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+.form-control input:focus {
+  outline: 0;
+}
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btn:focus {
+  outline: none;
+  color: white;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.app-header {
+  font-family: "Josefin Sans", sans-serif;
+}
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.textBold {
+  font-weight: bold;
+}
+.delIcon {
+  color: red;
+  cursor: pointer;
+}
+.editIcon {
+  color: blue;
+  cursor: pointer;
+}
