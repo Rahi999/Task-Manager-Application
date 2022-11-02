@@ -13,6 +13,15 @@
 
 </ul>
 
+<h2>Features : </h2>
+<ul>
+ <li>Can Create the Task</li>
+ <li>Can Read the Task</li>
+ <li>Can Update/Edit the Task</li>
+ <li>Can Delete the Task</li>
+
+</ul>
+
 <h2>Contributor : </h2>
 <ul>
  <li>Rahim Ansari(Individual)</li>
