@@ -5,10 +5,17 @@
 
 <h2>Tech Stacks : </h2>
 <ul>
- <li>React.Js</li>
- <li>Bootstrap</li>
- <li>Javascript</li>
- <li>HTML</li>
+ <li>React.Js,</li>
+ <li>Bootstrap,</li>
+ <li>Javascript,</li>
+ <li>HTML,</li>
  <li>CSS</li>
+
+</ul>
+
+<h2>Contributor : </h2>
+<ul>
+ <li>Rahim Ansari(Individual)</li>
+ 
 
 </ul>
